@@ -1,0 +1,22 @@
+<h1 class="ms-2 mt-2">Stupid Coaching</h1>
+<div class= "ms-4">
+<p class="question">
+  <%= @question %>
+</p>
+<p>
+  -You
+</p>
+<div class="alert alert-warning" >
+<p>
+<%= @answer %>
+</p>
+<p>
+  -Your coach
+</p>
+</div>
+</div>
+
+<p class="link-primary ms-2">
+  <%= link_to "Ask a new question", ask_path, class:"text-decoration-none" %>
+</p>
+<div>
